@@ -1,0 +1,20 @@
+---
+#### **Part 3: Telling Time**
+
+**Focus:** Apply number knowledge to understand and state times for reservations and waits.
+
+**Characters to Learn:**
+- 点 (diǎn) - o'clock (literally "dot")
+- 分 (fēn) - minute
+- 钟 (zhōng) - clock / bell (often used with 分)
+- 半 (bàn) - half (for half-past the hour)
+
+**Building Blocks (Time Phrases):**
+- **O'Clock:** Pattern is **Number + 点 (diǎn)**.
+    - Example: 七点 (qī diǎn) - 7 o'clock
+- **Minutes:** Pattern is **Number + 分钟 (fēnzhōng)**.
+    - Example: 十五分钟 (shíwǔ fēnzhōng) - 15 minutes
+- **Time of Day:** Pattern is **[Hour] + 点 (diǎn) + [Minutes] + 分 (fēn)**.
+    - Example: 七点十五分 (qī diǎn shíwǔ fēn) - 7:15
+- **Half-Past:** Pattern is **Number + 点半 (diǎn bàn)**.
+    - Example: 七点半 (qī diǎn bàn) - 7:30

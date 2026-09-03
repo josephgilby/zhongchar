@@ -1,0 +1,133 @@
+### Concept: grammar_measure_words
+
+**Goal:** Learn the fundamental concept of measure words (量词, liàngcí) using the general-purpose '个' (ge) and contrasting it with specific classifiers like '本' (běn) and container words like '杯' (bēi).
+
+**Prerequisites:**
+- `modules/numbers/1_core_numbers_1_99.txt`
+- `vocab/我_wǒ_I.txt`
+- `vocab/你_nǐ_you.txt`
+- `vocab/有_yǒu_tohave.txt`
+- `vocab/要_yào_towant.txt`
+- `vocab/人_rén_person.txt`
+- `vocab/那_nà_that.txt`
+- `vocab/苹果_píngguǒ_apple.txt`
+- `vocab/问题_wèntí_question.txt`
+- `vocab/朋友_péngyǒu_friend.txt`
+- `vocab/姐姐_jiějiě_oldersister.txt`
+- `vocab/学生_xuéshēng_student.txt`
+- `vocab/书_shū_book.txt`
+- `vocab/本_běn_bookMW.txt`
+- `vocab/茶_chá_tea.txt`
+- `vocab/杯_bēi_cup.txt`
+
+---
+### **Learning Content (Introduction Card)**
+
+* **Topic:** Measure Words (量词 liàngcí)
+* **Explanation:** "In Chinese, you usually can't connect a number (like 'one') or a demonstrative (like 'this') directly to a noun. You need a 'measure word' in between."
+* **The Core Pattern:**
+    * `Number + Measure Word + Noun`
+    * `Demonstrative + Measure Word + Noun`
+
+* **1. With Numbers (e.g., 'ge', 'běn', 'bēi'):**
+    * `三**个**苹果` (sān **ge** píngguǒ) - three apples
+    * `一**本**书` (yī **běn** shū) - one book
+    * `两**杯**茶` (liǎng **bēi** chá) - two cups of tea
+    * **Rule:** For *specific* nouns like 'book' (书), using the general word `个` (ge) is **incorrect**. (e.g., ~~`一个书`~~ ❌)
+
+* **2. With Demonstratives (This / That / Which):**
+    * This pattern is just as important!
+    * `**这**` (zhè) - **this** (near speaker)
+    * `**那**` (nà) - **that** (away from speaker)
+    * `**哪**` (nǎ) - **which?** (question word)
+    * **Examples:**
+        * `**这**个学生` (zhè ge xuéshēng) - **this** student
+        * `**那**本书` (nà běn shū) - **that** book
+        * `**哪**杯茶?` (nǎ bēi chá?) - **which** cup of tea?
+
+* **Dropping the Noun:** In conversation, if everyone knows the noun, you can drop it.
+    * **Example 1:** "你要几个？" (Nǐ yào jǐ ge?) -> "三个。" (Sān ge.)
+    * **Example 2:** "你要哪本？" (Nǐ yào nǎ běn?) - "Which one (book) do you want?" -> "这本。" (Zhè běn.) - "This one."
+
+---
+### **Foundational Exercises**
+
+* **Type 1a (Grammar Rule Comprehension):**
+    * **Prompt:** Show the sentence "我有一个问题 (Wǒ yǒu yīge wèntí)". Ask: "What is the role of '个' in this sentence?"
+    * **Task:** Multiple Choice.
+        * A) It's a verb meaning 'to have'.
+        * B) It's a measure word used for counting nouns. (Correct)
+        * C) It's a preposition meaning 'at'.
+
+* **Type 1c (Measure Word Choice):**
+    * **Prompt:** "Which sentence is grammatically *correct*?"
+    * **Task:** Multiple Choice.
+        * A) `我有一个书` (Wǒ yǒu yī ge shū)
+        * B) `我有一本书` (Wǒ yǒu yī běn shū) (Correct)
+        * C) `我有一书` (Wǒ yǒu yī shū)
+
+* **Type 2a (Fill-in-the-Blank - General):**
+    * **Prompt:** "我有三 ___ 朋友。(Wǒ yǒu sān ___ péngyǒu.)" - I have three friends.
+    * **Task:** Type `个`.
+
+* **Type 2a (Fill-in-the-Blank - Specific):**
+    * **Prompt:** "I want one book: '我要一 ___ 书。' (Wǒ yào yī ___ shū.)"
+    * **Task:** Type `本`.
+    * **Feedback on `个`:** "`个` (ge) is a general measure word, but 'book' (书) requires its own special measure word. Try again!"
+
+* **Type 2a (Fill-in-the-Blank - Container):**
+    * **Prompt:** "A cup of tea: '一 ___ 茶。' (yī ___ chá.)"
+    * **Task:** Type `杯`.
+
+* **Type 2b (Sentence Correction):**
+    * **Prompt:** "The following sentence is grammatically incorrect. Fix it: `我有一个人姐姐`" (Wǒ yǒu yī gèrén jiějiě - I have one people older sister).
+    * **Task:** Type the correct sentence: `我有一个姐姐`.
+    * **Note:** This tests that the user understands `个` is sufficient and `个人` is redundant/wrong in this context.
+
+* **Type 2c (Pattern Identification):**
+    * **Prompt:** Show the phrase "那个学生 (nà ge xuéshēng - that student)". Ask: "Which character is the measure word?"
+    * **Task:** Select or type `个`.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "that book"
+    * **Task:** Type `那本书`.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "this apple"
+    * **Task:** Type `这个苹果`.
+
+* **Type 2c (Pattern Identification):**
+    * **Prompt:** Show the phrase "那个学生 (nà ge xuéshēng - that student)". Ask: "Which character is the measure word?"
+    * **Task:** Select or type `个`.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "which cup of tea?"
+    * **Task:** Type `哪杯茶`.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "this book"
+    * **Task:** Type `这本书`.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "which student?"
+    * **Task:** Type `哪个学生`.
+
+* **Type 4d (Aural Dialogue Response):**
+    * **Prompt:**
+        * **Context:** "Your friend asks which book you want:"
+        * **Audio:** (Plays "你要哪本？" - Nǐ yào nǎ běn?)
+        * **Task:** "Respond concisely that you want 'this one' (the one near you)."
+    * **Answer Evaluation Logic:**
+        1.  **Ideal Answer Check:** Does the answer match `这本`?
+            * **Action:** Mark correct. Grant full mastery.
+        2.  **Natural/Over-Correct Check:** Does the answer match `我要这本` or `这本书`?
+            * **Action:** Mark correct, but trigger a "Conciseness Follow-Up."
+            * **Follow-Up Prompt:** "Perfect! How could you say that even more concisely?" (Task: `这本`)
+        3.  **Incorrect Measure Word Check:** Does the answer match `这个`?
+            * **Action:** Mark incorrect.
+            * **Feedback:** "Be careful! The question used `本` (běn) for 'book'. Your answer should use the same measure word. Try again!"
+        4.  **Incorrect Demonstrative Check:** Does the answer match `那本`?
+            * **Action:** Mark incorrect.
+            * **Feedback:** "Almost! `那` (nà) means 'that one' (far away). How do you say 'this one' (near you)?"
+
+

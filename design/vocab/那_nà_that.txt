@@ -1,0 +1,21 @@
+### Concept: char_那_nà_that
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `那`.
+    * **Task:** Provide pinyin ("nà") and meaning ("that").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "that"
+    * **Task:** Type `那`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "nà".
+    * **Task:** Handwrite `那`.
+
+---

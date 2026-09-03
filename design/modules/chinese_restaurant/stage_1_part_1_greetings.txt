@@ -1,0 +1,57 @@
+### Module 3: Chinese Restaurant, Stage 1, Part 1 (Core Greetings)
+
+**Goal:** Learn the most common ways to greet the restaurant staff at any time of day by mastering the component characters and the full vocabulary words.
+
+**Learning Concepts:**
+* **Characters:** 你, 好, 们, 请, 问, 晚, 上, 早, 午, 下
+* **Vocabulary:** 你好, 你们好, 请问, 晚上好, 早上好, 上午好, 中午好, 下午好
+
+---
+### **Exercises**
+
+#### **1. Foundational Character Exercises**
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `你`. **Task:** Provide pinyin ("nǐ") and meaning ("you").
+    * **Prompt:** Show `好`. **Task:** Provide pinyin ("hǎo") and meaning ("good").
+    * **Prompt:** Show `们`. **Task:** Provide pinyin ("men") and meaning ("plural marker for pronouns").
+    * **Prompt:** Show `请`. **Task:** Provide pinyin ("qǐng") and meaning ("please").
+    * **Prompt:** Show `问`. **Task:** Provide pinyin ("wèn") and meaning ("to ask").
+    * **Prompt:** Show `晚`. **Task:** Provide pinyin ("wǎn") and meaning ("evening, late").
+    * **Prompt:** Show `上`. **Task:** Provide pinyin ("shàng") and meaning ("on, up, morning").
+    * **Prompt:** Show `早`. **Task:** Provide pinyin ("zǎo") and meaning ("early, morning").
+    * **Prompt:** Show `午`. **Task:** Provide pinyin ("wǔ") and meaning ("noon").
+    * **Prompt:** Show `下`. **Task:** Provide pinyin ("xià") and meaning ("down, under, afternoon").
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "nǐ". **Task:** Handwrite `你`.
+    * **Prompt:** Play audio "hǎo". **Task:** Handwrite `好`.
+    * **Prompt:** Play audio "qǐng". **Task:** Handwrite `请`.
+    * **Prompt:** Play audio "wèn". **Task:** Handwrite `问`.
+    * **Prompt:** Play audio "zǎo". **Task:** Handwrite `早`.
+    * **Prompt:** Play audio "wǔ". **Task:** Handwrite `午`.
+
+---
+#### **2. Vocabulary and Phrase Exercises**
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `你好`. **Task:** Provide pinyin ("ní hǎo") and meaning ("Hello"). Note: This tests tone sandhi.
+    * **Prompt:** Show `你们好`. **Task:** Provide pinyin ("nǐmen hǎo") and meaning ("Hello (plural)").
+    * **Prompt:** Show `请问`. **Task:** Provide pinyin ("qǐngwèn") and meaning ("Excuse me / May I ask...").
+    * **Prompt:** Show `早上好`. **Task:** Provide pinyin ("zǎoshang hǎo") and meaning ("Good morning (early)").
+    * **Prompt:** Show `中午好`. **Task:** Provide pinyin ("zhōngwǔ hǎo") and meaning ("Good noon/midday").
+    * **Prompt:** Show `下午好`. **Task:** Provide pinyin ("xiàwǔ hǎo") and meaning ("Good afternoon").
+    * **Prompt:** Show `晚上好`. **Task:** Provide pinyin ("wǎnshàng hǎo") and meaning ("Good evening").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "Hello." **Task:** Type `你好`.
+    * **Prompt:** "Hello (to a group)." **Task:** Type `你们好`.
+    * **Prompt:** "Excuse me..." **Task:** Type `请问`.
+    * **Prompt:** "Good morning." **Task:** Type `早上好`.
+    * **Prompt:** "Good afternoon." **Task:** Type `下午好`.
+    * **Prompt:** "Good evening." **Task:** Type `晚上好`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "ní hǎo". **Task:** Handwrite `你好`.
+    * **Prompt:** Play audio "nǐmen hǎo". **Task:** Handwrite `你们好`.
+    * **Prompt:** Play audio "zǎoshang hǎo". **Task:** Handwrite `早上好`.

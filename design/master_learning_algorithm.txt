@@ -1,0 +1,54 @@
+### Design Document: The Master Learning Algorithm
+
+This document describes the app's core learning methodology. It outlines the design-time process for creating a curriculum of interconnected exercises and the runtime algorithm the app uses to guide a user through that curriculum.
+
+---
+### **Core Principles**
+
+1.  **Goal-First Design:** The curriculum is built backward from high-level, conversational goals.
+2.  **Static Exercise Web:** All exercises and their prerequisites are defined by the designer beforehand.
+3.  **Global & Contextual Concepts:** All `Learning Concepts` are defined once and reused, but their mastery is tracked **independently based on context** (i.e., a character's specific meaning or pronunciation).
+
+---
+### **1. The Design-Time Workflow (The Designer's Job)**
+
+This is the manual process for building a module's curriculum.
+
+* **Step 1: Define the High-Level Goal (Dialogue Tree)**
+    * The designer writes a complete dialogue script that serves as the source material for the module.
+
+* **Step 2: Create Goal Exercises (Types 4a, 4b, 4c)**
+    * From the dialogue, the designer creates high-level, module-specific "Goal Exercises."
+
+* **Step 3: Deconstruct and Define Context-Specific Prerequisites**
+    * For each Goal Exercise, the designer manually lists all required `Learning Concepts` using a precise, context-aware ID format: `type_character_pinyin_meaning`.
+    * This allows the system to differentiate between a character's various meanings and pronunciations.
+        * **Example A (Polyphone):** `char_好_hǎo_good` vs. `char_好_hào_like`.
+        * **Example B (Contextual Meaning):** `char_中_zhōng_middle` vs. `char_中_zhōng_hit`.
+    * **Example Dependency Tree for "你好，两位":**
+        * **Goal Exercise 4b:** "Say 'Hello, two people.'"
+            * **Requires:** `vocab_你好_níhǎo_hello` and `vocab_两位_liǎngwèi_twopeople`.
+                * `vocab_你好_níhǎo_hello` requires `char_你_nǐ_you` and `char_好_hǎo_good`.
+                * `vocab_两位_liǎngwèi_twopeople` requires `char_两_liǎng_two`, `char_位_wèi_measureword`, and mastery of the "Numbers, Part 1" module.
+
+
+* **Step 4: Create and Map Contextual Foundational Exercises**
+    * For every specific `Learning Concept` (e.g., `char_好_hǎo_good`), the designer creates a contextual `Type 1a` exercise.
+    * **Example `Type 1a` Exercise:**
+        * **Prompt:** Show `好` (in the context of the word 你**好**).
+        * **Task:** Provide pinyin (**"hǎo"**) and meaning (**"good"**).
+    * This ensures the user is always learning the correct meaning and pronunciation for the dialogue they are studying.
+
+---
+### **2. The App's Runtime Logic (The User's Experience)**
+
+1.  **Identify the User's Next Goal:** The app identifies the next un-mastered **Goal Exercise** in the user's chosen module.
+
+2.  **Check Prerequisites:** The app looks up the predefined list of **context-specific** `Learning Concepts` required for that Goal Exercise (e.g., `char_好_hǎo_good`).
+
+3.  **Build the Session Queue:** The app queries the `learning_items` database for the user's mastery of those specific concepts. It builds a session queue containing the **Foundational Exercises** for the most fundamental, least-mastered concepts first, mixing in any due SRS reviews.
+    * *Because the check is specific, the system will correctly identify that Alex needs to learn `char_中_zhōng_hit` for a gaming module, even if he has already mastered `char_中_zhōng_middle` in a geography module.*
+
+4.  **The Learning Loop:** The user completes the Foundational Exercises, and their mastery scores for the specific concepts are updated using the advanced SRS logic.
+
+5.  **Unlock the Goal Exercise:** Only when all prerequisite `Learning Concepts` for the Goal Exercise have reached "Daily Mastery" will the app present the Goal Exercise itself as a "final exam" for that set of concepts.

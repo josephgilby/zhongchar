@@ -1,0 +1,21 @@
+### Concept: char_哪_nǎ_which
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `哪`.
+    * **Task:** Provide pinyin ("nǎ") and meaning ("which").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "which"
+    * **Task:** Type `哪`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "nǎ".
+    * **Task:** Handwrite `哪`.
+
+---

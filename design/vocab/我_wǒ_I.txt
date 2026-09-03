@@ -1,0 +1,22 @@
+
+### Concept: char_我_wǒ_I
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `我`.
+    * **Task:** Provide pinyin ("wǒ") and meaning ("I, me").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "I, me"
+    * **Task:** Type `我`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "wǒ".
+    * **Task:** Handwrite `我`.
+
+---

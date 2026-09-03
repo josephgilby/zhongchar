@@ -1,0 +1,21 @@
+### Concept: char_有_yǒu_tohave
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `有`.
+    * **Task:** Provide pinyin ("yǒu") and meaning ("to have, there is/are").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "to have"
+    * **Task:** Type `有`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "yǒu".
+    * **Task:** Handwrite `有`.
+
+---

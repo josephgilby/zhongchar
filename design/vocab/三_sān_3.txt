@@ -1,0 +1,21 @@
+### Concept: char_三_sān_3
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `三`.
+    * **Task:** Provide pinyin ("sān") and meaning ("three").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "three"
+    * **Task:** Type `三`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "sān".
+    * **Task:** Handwrite `三`.
+
+---

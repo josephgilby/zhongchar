@@ -1,0 +1,20 @@
+### Concept: vocab_谢谢_xièxie_thanks
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `谢谢`.
+    * **Task:** Provide pinyin ("xièxie") and meaning ("Thanks").
+    * **Note:** Tests neutral tone on the second character.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "Thanks"
+    * **Task:** Type `谢谢`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "xièxie".
+    * **Task:** Handwrite `谢谢`.

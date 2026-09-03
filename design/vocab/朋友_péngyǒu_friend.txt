@@ -1,0 +1,21 @@
+### Concept: vocab_朋友_péngyǒu_friend
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `朋友`.
+    * **Task:** Provide pinyin ("péngyǒu") and meaning ("friend").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "friend"
+    * **Task:** Type `朋友`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "péngyǒu".
+    * **Task:** Handwrite `朋友`.
+
+---

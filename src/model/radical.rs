@@ -1,9 +1,16 @@
+use std::time::Instant;
+
+use indexed_db_futures::BuildPrimitive;
+use indexed_db_futures::{query_source::QuerySource, Build};
+use indexed_db_futures::transaction::TransactionMode;
 use leptos::logging::log;
 use serde::{Deserialize, Serialize};
 use leptos::prelude::*;
+use wasm_bindgen::JsValue;
 use crate::helpers::prepend_relative_url;
 
-use crate::model::radical_from_csv;
+use crate::model::error::ZhongCharError;
+use crate::model::{db, radical_from_csv};
 
 use super::error::ZhongCharResult;
 
@@ -24,6 +31,103 @@ pub struct Radical {
 }
 
 impl Radical {
+
+    pub async fn seed_if_needed() -> ZhongCharResult<()> {
+        let db = db::open_db().await?;
+
+        let tx = db.transaction(db::RADICALS_STORE).build()?;
+        let store = tx.object_store(db::RADICALS_STORE)?;
+
+        let count = store.count().await?;
+        if count > 0 {
+            return Ok(()); // Already seeded
+        }
+
+        leptos::logging::log!("Starting Radical Store seed...");
+        let start_time = window().performance().expect("performance should be available").now();
+
+        // --- Database is empty, so we seed it ---
+        let radicals_to_seed = Self::fetch_radicals().await?;
+        let tx = db.transaction(db::RADICALS_STORE)
+            .with_mode(TransactionMode::Readwrite)
+            .build()?;
+        let store = tx.object_store(db::RADICALS_STORE)?;
+
+        for radical in &radicals_to_seed {
+            let value = serde_wasm_bindgen::to_value(radical)
+                .map_err(|e| ZhongCharError::Wasm(e.to_string()))?;
+            let _ = store.add(&value).primitive()?;
+        }
+
+        tx.commit().await?;
+
+        let end_time = window().performance().expect("performance should be available").now();
+        let elapsed_ms = end_time - start_time;
+        leptos::logging::log!("Radical Store seeding finished in {:.2}ms", elapsed_ms);
+
+        Ok(())
+    }
+
+    pub async fn get_all_from_db() -> ZhongCharResult<Vec<Radical>> {
+        let db = db::open_db().await?;
+        let tx = db.transaction(db::RADICALS_STORE).build()?;
+        let store = tx.object_store(db::RADICALS_STORE)?;
+
+        let radicals_from_db= store
+                .get_all()
+                .await?
+                .collect::<Result<Vec<JsValue>, indexed_db_futures::error::Error>>()?;
+        
+        let radicals = radicals_from_db
+            .into_iter()
+            .filter_map(|val| serde_wasm_bindgen::from_value(val).ok())
+            .collect();
+            
+        Ok(radicals)
+    }
+
+
+    pub async fn get_all() -> ZhongCharResult<Vec<Radical>> {
+        let db = db::open_db().await?;
+
+        let tx = db.transaction(db::RADICALS_STORE).build()?;
+        let store = tx.object_store(db::RADICALS_STORE)?;
+
+        // Await the `Count` builder first, then use `?` on the Result.
+        let count = store.count().await?;
+        if count > 0 {
+            // Await the `GetAllRecords` builder first, then use `?` on the Result.
+            let radicals_from_db= store
+                .get_all()
+                .await?
+                .collect::<Result<Vec<JsValue>, indexed_db_futures::error::Error>>()?;
+            let radicals: Vec<Radical> = radicals_from_db
+                .into_iter()
+                .filter_map(|val| serde_wasm_bindgen::from_value(val).ok())
+                .collect();
+            return Ok(radicals);
+        }
+
+        // --- If we reach here, the DB is empty and needs to be seeded ---
+        
+        let radicals_to_seed = Self::fetch_radicals().await?;
+        let tx = db.transaction(db::RADICALS_STORE)
+            .with_mode(TransactionMode::Readwrite)
+            .build()?;
+        let store = tx.object_store(db::RADICALS_STORE)?;
+
+        for radical in &radicals_to_seed {
+            let value = serde_wasm_bindgen::to_value(radical)
+                .map_err(|e| ZhongCharError::Wasm(e.to_string()))?;
+            // .add() returns a Result, so `?` is correct here.
+            store.add(&value).await?;
+        }
+
+        tx.commit().await?;
+
+        Ok(radicals_to_seed)
+    }
+    
     pub async fn fetch_radicals() -> ZhongCharResult<Vec<Radical>> {
         let base_url = option_env!("BASE_URL").unwrap_or("/");
         let port = window().location().port(); // Get port as Option<String>

@@ -1,0 +1,139 @@
+---
+
+Stage 1 - Arrival / Greeting / Host Interactions:
+
+**Common Greetings:**
+- "你好 (nǐ hǎo)" - Hello (Standard, always safe)
+- "你们好 (nǐmen hǎo)" - Hello (Plural, for 2+ people)
+- (Or simply state your party size): "两位 (liǎng wèi)" - Two people.
+
+**Key Phrases & Vocabulary:**
+| Phrase | Pinyin | English Meaning & Context |
+| :--- | :--- | :--- |
+| **你好** | nǐ hǎo | Hello (Standard, always safe) |
+| **欢迎光临** | huānyíng guānglín | Welcome (Polite greeting from staff) |
+| **几位？** | jǐ wèi? | How many people? (The key question) |
+| **两位** | liǎng wèi | Two people (The key answer) |
+| **这边请** | zhè biān qǐng | This way, please |
+| **有预订吗？** | yǒu yùdìng ma? | Do you have a reservation? |
+| **要等多长时间？** | yào děng duō cháng shíjiān? | How long is the wait? |
+
+
+
+**Dialogue Tree 1: Standard "Hello, how many?"**
+- Hostess: "你好，几位？(Nǐ hǎo, jǐ wèi?)" - Hello, how many people?
+- You: "两位，谢谢。(Liǎng wèi, xièxiè.)" - Two people, thank you.
+- Hostess: "好的，这边请。(Hǎo de, zhè biān qǐng.)" - Okay, this way please.
+
+**Dialogue Tree 2: Stating Party Size Directly**
+- You: "你好，两位。(Nǐ hǎo, liǎng wèi.)" - Hello, two people.
+- Hostess (Reacting with surprise): "你会说中文？(Nǐ huì shuō zhōngwén?)" - You can speak Chinese?
+- You (Politely): "会一点点。我还在学习。(Huì yīdiǎndiǎn. Wǒ hái zài xuéxí.)" - A little bit. I'm still learning.
+- Hostess: "很棒！这边请。(Hěn bàng! Zhè biān qǐng.)" - Awesome! This way, please.
+
+**Dialogue Tree 3: Asking to Practice**
+- You: "你好，我想练习一下我的中文，可以吗？ (Nǐ hǎo, wǒ xiǎng liànxí yīxià wǒ de zhōngwén, kěyǐ ma?)" - Hello, I would like to practice my Chinese a little, is that okay?
+- Hostess (Encouragingly): "当然可以！你的中文很好！(Dāngrán kěyǐ! Nǐ de zhōngwén hěn hǎo!)" - Of course! Your Chinese is very good!
+- You (Humbly deflecting compliment): "哪里哪里。(Nǎlǐ nǎlǐ.)" - Not at all.
+- Hostess: "两位吗？(Liǎng wèi ma?)" - Two people?
+- You: "对，两位。(Duì, liǎng wèi.)" - Correct, two people.
+
+**Dialogue Tree 4: Waiting for a Table**
+- You: "你好，两位。(Nǐ hǎo, liǎng wèi.)" - Hello, two people.
+- Hostess: "你好。现在没有位子，可能要等一下。(Nǐ hǎo. Xiànzài méiyǒu wèizi, kěnéng yào děng yīxià.)" - Hello. There are no tables right now, you may have to wait a bit.
+- You: "好的。要等多长时间？(Hǎo de. Yào děng duō cháng shíjiān?)" - Okay. How long is the wait?
+- Hostess: "前面还有一位。大概要等十五分钟。(Qiánmiàn hái yǒu yī wèi. Dàgài yào děng shíwǔ fēnzhōng.)" - There is one party ahead of you. The wait is about fifteen minutes.
+- You: "好的，没问题。(Hǎo de, méi wèntí.)" - Okay, no problem.
+- Hostess: "可以在那边坐一下。(Kěyǐ zài nàbiān zuò yīxià.)" - You can have a seat over there.
+
+**Dialogue Tree 5: Getting on the Waitlist**
+- You: "你好，两位。(Nǐ hǎo, liǎng wèi.)" - Hello, two people.
+- Hostess: "好的。现在可能要等二十分钟左右。(Hǎo de. Xiànzài kěnéng yào děng èrshí fēnzhōng zuǒyòu.)" - Okay. Right now there's a wait of about twenty minutes.
+- You: "好的，没问题。(Hǎo de, méi wèntí.)" - Okay, no problem.
+- Hostess: "您贵姓？(Nín guìxìng?)" - May I have your last name?
+- You: "我姓 [Smith]。(Wǒ xìng [Smith].)" - My last name is [Smith].
+- Hostess: "好的, [Smith] 先生。有位子的时候我叫您。(Hǎo de, [Smith] xiānshēng. Yǒu wèizi de shíhòu wǒ jiào nín.)" - Okay, Mr. [Smith]. I'll call you when a table is ready.
+- **(Later...)**
+- Hostess: "[Smith] 先生，两位吗？有位子了！([Smith] xiānshēng, liǎng wèi ma? Yǒu wèizi le!)" - Mr. [Smith], party of two? Your table is ready!
+
+**Dialogue Tree 6: Using an Alternative Opener**
+- You: "晚上好。请问，还有位子吗？我们两位。(Wǎnshàng hǎo. Qǐngwèn, hái yǒu wèizi ma? Wǒmen liǎng wèi.)" - Good evening. May I ask, are there still tables available? There are two of us.
+- Hostess: "晚上好。有，这边请。(Wǎnshàng hǎo. Yǒu, zhè biān qǐng.)" - Good evening. Yes, this way please.
+
+**Dialogue Tree 7: Hostess Asks About Reservation**
+- Hostess: "你好，欢迎光临。请问，有预订吗？(Nǐ hǎo, huānyíng guānglín. Qǐngwèn, yǒu yùdìng ma?)" - Hello, welcome. Excuse me, do you have a reservation?
+- You: "有。是七点的预订，名字是 [Smith]。(Yǒu. Shì qī diǎn de yùdìng, míngzì shì [Smith].)" - Yes. It's a reservation for 7 o'clock, under the name [Smith].
+- Hostess: "好的, [Smith] 先生，这边请。(Hǎo de, [Smith] xiānshēng, zhè biān qǐng.)" - Okay, Mr. [Smith], this way please.
+
+**Dialogue Tree 8: Proactively Stating You Have a Reservation**
+- You: "你好，我们有预订。(Nǐ hǎo, wǒmen yǒu yùdìng.)" - Hello, we have a reservation.
+- Hostess: "好的，请问名字是？(Hǎo de, qǐngwèn míngzì shì?)" - Okay, and the name is?
+- You: "[Smith]，两位。( [Smith], liǎng wèi.)" - [Smith], for two.
+- Hostess: "好的，我看一下... 啊，这边请。(Hǎo de, wǒ kàn yīxià... à, zhè biān qǐng.)" - Okay, let me see... Ah, this way please.
+
+**Dialogue Tree 9: Reservation Required / No Walk-ins**
+- You: "你好，请问还有位子吗？两位。(Nǐ hǎo, qǐngwèn hái yǒu wèizi ma? Liǎng wèi.)" - Hello, excuse me, are there any tables available? For two.
+- Hostess: "不好意思，我们今晚订满了。(Bù hǎoyìsi, wǒmen jīnwǎn dìng mǎnle.)" - I'm sorry, we're fully booked tonight.
+- You: "哦，好的，知道了。谢谢你。(Ō, hǎo de, zhīdàole. Xièxiè nǐ.)" - Oh, okay, I understand. Thank you.
+- Hostess: "不客气。(Bù kèqì.)" - You're welcome.
+
+**Dialogue Tree 10: Requesting a Specific Table (Expanded)**
+- You: "你好，两位。(Nǐ hǎo, liǎng wèi.)" - Hello, two people.
+- Hostess: "好的，这边请。(Hǎo de, zhè biān qǐng.)" - Okay, this way please.
+- You (Option A: Booth): "不好意思，我们可以坐卡座吗？(Bù hǎoyìsi, wǒmen kěyǐ zuò kǎzuò ma?)" - Excuse me, could we sit in a booth?
+- You (Option B: Window): "请问，可以坐靠窗的位子吗？(Qǐngwèn, kěyǐ zuò kào chuāng de wèizi ma?)" - Excuse me, could we sit by the window?
+- You (Option C: Outside): "请问，外面有位子吗？(Qǐngwèn, wàimiàn yǒu wèizi ma?)" - Excuse me, are there seats outside?
+- Hostess (If Yes): "当然可以，这边请。(Dāngrán kěyǐ, zhè biān qǐng.)" - Of course, this way please.
+- Hostess (If No): "不好意思，那边都满了。(Bù hǎoyìsi, nàbiān dōu mǎnle.)" - I'm sorry, those seats are all full.
+
+**Dialogue Tree 11: Mentioning a Special Occasion**
+- You: "晚上好，我们有七点的预订，名字是 [Wang]。(Wǎnshàng hǎo, wǒmen yǒu qī diǎn de yùdìng, míngzì shì [Wang].)" - Good evening, we have a reservation for 7 o'clock under the name [Wang].
+- Hostess: "王先生，晚上好。这边请。(Wáng xiānshēng, wǎnshàng hǎo. Zhè biān qǐng.)" - Mr. Wang, good evening. This way please.
+- You: "谢谢。对了，今天是我朋友的生日。(Xièxiè. Duìle, jīntiān shì wǒ péngyǒu de shēngrì.)" - Thank you. By the way, today is my friend's birthday.
+- Hostess: "生日快乐！(Shēngrì kuàilè!)" - Happy birthday!
+
+**Dialogue Tree 12: Offered Bar Seating While Waiting**
+- Hostess: "你好。现在没有位子，大概要等二十分钟。(Nǐ hǎo. Xiànzài méiyǒu wèizi, dàgài yào děng èrshí fēnzhōng.)" - Hello. There are no tables right now, the wait is about twenty minutes.
+- Hostess: "你们可以先在吧台喝一杯。(Nǐmen kěyǐ xiān zài bātái hē yībēi.)" - You can have a drink at the bar first while you wait.
+- You: "好的，谢谢。(Hǎo de, xièxiè.)" - Okay, thank you.
+
+**Dialogue Tree 13: Bar is Open Seating**
+- You: "你好，请问要等多长时间？(Nǐ hǎo, qǐngwèn yào děng duō cháng shíjiān?)" - Hello, excuse me, how long is the wait?
+- Hostess: "桌子大概要等三十分钟，但是吧台是开放式座位。(Zhuōzi dàgài yào děng sānshí fēnzhōng, dànshì bātái shì kāifàng shì zuòwèi.)" - Tables are about a thirty-minute wait, but the bar is open seating.
+- You: "好的，那我们坐吧台吧。(Hǎo de, nà wǒmen zuò bātái ba.)" - Okay, we'll sit at the bar then.
+
+**Dialogue Tree 14: The Walk to the Table**
+- Hostess: "好的，这边请。(Hǎo de, zhè biān qǐng.)" - Okay, this way please.
+- (Hostess leads you to a table)
+- Hostess: "这个位子可以吗？(Zhège wèizi kěyǐ ma?)" - Is this table okay?
+- You: "可以，谢谢。(Kěyǐ, xièxiè.)" - Yes, it's fine. Thank you.
+- Hostess: "请坐。服务员马上就来。(Qǐng zuò. Fúwùyuán mǎshàng jiù lái.)" - Please be seated. Your waiter will be with you shortly.
+
+**Dialogue Tree 15: Arriving Late for a Reservation**
+- You: "你好，我们有一个七点的预订，名字是 [Chen]。(Nǐ hǎo, wǒmen yǒu yīgè qī diǎn de yùdìng, míngzì shì [Chen].)" - Hello, we have a reservation for 7 o'clock under the name [Chen].
+- You: "不好意思，我们迟到了。(Bù hǎoyìsi, wǒmen chídàole.)" - Sorry we're late.
+- Hostess: "没关系，陈女士。我们还为您留着位子。这边请。(Méiguānxì, Chén nǚshì. Wǒmen hái wèi nín liúzhe wèizi. Zhè biān qǐng.)" - No problem, Ms. Chen. We still have your table for you. This way please.
+
+**Dialogue Tree 16: Changing Party Size**
+- You: "你好，我们有一个预订，名字是 [Lee]。(Nǐ hǎo, wǒmen yǒu yīgè yùdìng, míngzì shì [Lee].)" - Hello, we have a reservation under the name [Lee].
+- Hostess: "好的，李先生，两位对吧？(Hǎo de, Lǐ xiānshēng, liǎng wèi duì ba?)" - Okay, Mr. Lee, for two, correct?
+- You: "不好意思，我们多了一个人，现在是三位。还可以吗？(Bù hǎoyìsi, wǒmen duōle yīgè rén, xiànzài shì sān wèi. Hái kěyǐ ma?)" - I'm sorry, we have one extra person, so it's three now. Is that still okay?
+- Hostess (Option A: Okay): "没问题，我给你们换个大一点的桌子。请稍等。(Méi wèntí, wǒ gěi nǐmen huàn gè dà yīdiǎn de zhuōzi. Qǐng shāo děng.)" - No problem, let me get you a bigger table. Please wait just a moment.
+- Hostess (Option B: Problem): "嗯...今天人很多，三位的桌子可能要等一下。(Ń... Jīntiān rén hěnduō, sān wèi de zhuōzi kěnéng yào děng yīxià.)" - Hmm... we are very busy today, you may have to wait for a table for three.
+
+**Dialogue Tree 17: Casual "How many?"**
+- Hostess: "几位？(Jǐ wèi?)" - How many?
+- You: "你好，我们两位。(Nǐ hǎo, wǒmen liǎng wèi.)" - Hello, there are two of us.
+- Hostess: "好，跟我来。(Hǎo, gēn wǒ lái.)" - Okay, follow me.
+
+**Dialogue Tree 18: Polite Welcome & Seating**
+- Hostess: "你好，欢迎光临！两位吗？(Nǐ hǎo, huānyíng guānglín! Liǎng wèi ma?)" - Hello, welcome! A party of two?
+- You: "对，谢谢。(Duì, xièxiè.)" - Yes, thank you.
+- Hostess: "好的，我带您过去。(Hǎo de, wǒ dài nín guòqù.)" - Okay, I'll take you to your table.
+
+**Dialogue Tree 19: Responding to Reservation Query (No Reservation)**
+- Hostess: "晚上好，请问有预订吗？(Wǎnshàng hǎo, qǐngwèn yǒu yùdìng ma?)" - Good evening, do you have a reservation?
+- You: "没有。现在还有位子吗？我们两位。(Méiyǒu. Xiànzài hái yǒu wèizi ma? Wǒmen liǎng wèi.)" - No, we don't. Are there any tables available now? There are two of us.
+- Hostess (If Yes): "有，这边请。(Yǒu, zhè biān qǐng.)" - Yes, this way please.
+- Hostess (If No): "不好意思，现在要等一下。(Bù hǎoyìsi, xiànzài yào děng yīxià.)" - I'm sorry, you'll have to wait a little while.
+

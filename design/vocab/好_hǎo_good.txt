@@ -1,0 +1,19 @@
+### Concept: char_好_hǎo_good
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `好` (in the context of 你**好**).
+    * **Task:** Provide pinyin ("hǎo") and meaning ("good").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "good"
+    * **Task:** Type `好`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "hǎo".
+    * **Task:** Handwrite `好`.

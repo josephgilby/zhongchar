@@ -1,0 +1,21 @@
+### Concept: vocab_问题_wèntí_question
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `问题`.
+    * **Task:** Provide pinyin ("wèntí") and meaning ("question, problem").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "question"
+    * **Task:** Type `问题`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "wèntí".
+    * **Task:** Handwrite `问题`.
+
+---

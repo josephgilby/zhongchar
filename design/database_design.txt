@@ -1,0 +1,106 @@
+### Design Document: Adaptive Learning & User Progress Database
+
+This document details the proposed IndexedDB schema for storing user progress, managing exercise history, and enabling an adaptive, module-based learning system. The goal is to create a flexible structure that supports the "global mastery" concept while allowing for curated learning paths like the "Chinese Restaurant" module.
+
+---
+### **Core Philosophy**
+
+1.  **Global Mastery:** A user's knowledge of a character, word, or grammar point is universal. Mastering it in one module means it's mastered everywhere.
+2.  **Modules as Guides:** Modules are not silos of content but curated "playlists" or "quest lines" that draw from the global knowledge base. They provide context and a clear goal (e.g., "be able to order food").
+3.  **Adaptive Progression:** The system should intelligently guide the user, suggesting prerequisite modules or lessons when necessary to ensure they have the foundational knowledge to succeed in their chosen module.
+
+---
+### **1. IndexedDB Schema: New Object Stores**
+
+We will introduce three new object stores to manage user data alongside the existing static data stores (`hanzis`, `radicals`, `hanzi_strokes`).
+
+#### **a. `learning_items` Store**
+
+This is the central hub for the Spaced Repetition System (SRS) and mastery tracking. Every unique piece of learnable information (a character, a vocabulary word, or a specific grammar pattern) gets an entry here.
+
+* **Store Name:** `learning_items`
+* **Key Path:** `id` (A unique identifier, e.g., "char_你", "vocab_你好", "grammar_negation_不")
+* **Indexes:**
+    * `mastery_level`: (0-5) For quick querying of learned vs. unlearned items.
+    * `next_review_due`: (Timestamp) For efficient SRS scheduling.
+    * `item_type`: ("char", "vocab", "grammar") To filter by type.
+
+* **Object Structure:**
+    ```json
+    {
+      "id": "vocab_你好",
+      "item_type": "vocab",
+      "mastery_level": 3,
+      "srs_stage": 4,
+      "next_review_due": 1742389200000,
+      "last_reviewed": 1741784400000,
+      "incorrect_count": 1
+    }
+    ```
+
+#### **b. `exercise_history` Store**
+
+This store keeps a log of every exercise attempt. This data is invaluable for understanding user weaknesses and adapting future lessons.
+
+* **Store Name:** `exercise_history`
+* **Key Path:** `id` (Auto-incrementing integer)
+* **Indexes:**
+    * `learning_item_id`: To retrieve all attempts for a specific character or word.
+    * `timestamp`: To review progress over time.
+    * `was_correct`: To quickly calculate accuracy rates.
+
+* **Object Structure:**
+    ```json
+    {
+      "id": 101,
+      "learning_item_id": "char_两",
+      "exercise_type": "3b", 
+      "timestamp": 1741784400000,
+      "was_correct": true,
+      "user_answer": "两"
+    }
+    ```
+
+#### **c. `module_progress` Store**
+
+This store tracks the user's progress within a specific learning module, like the "Chinese Restaurant." It primarily manages which parts of a module are unlocked.
+
+* **Store Name:** `module_progress`
+* **Key Path:** `module_id` (e.g., "restaurant", "numbers", "time")
+* **Indexes:** None needed initially.
+
+* **Object Structure:**
+    ```json
+    {
+      "module_id": "restaurant",
+      "current_stage": 1,
+      "unlocked_dialogues": [1, 2, 5],
+      "completed_stages": []
+    }
+    ```
+
+---
+### **2. Module Prerequisites & Adaptive Flow**
+
+This system allows for intelligent redirection and guidance based on prerequisites. Prerequisites will be defined in the application's code, not the database, for easier updates.
+
+**Example Flow: Starting the "Chinese Restaurant" Module**
+
+1.  **User Clicks "Chinese Restaurant":** The application loads the module definition. The definition for "Stage 1: Arrival" lists its required vocabulary and characters (e.g., `你好`, `两`, `位`, `十五`, `分钟`).
+
+2.  **Prerequisite Check:** The app queries the `learning_items` store for these required items.
+    * `let required_ids = ["vocab_你好", "char_两", ...];`
+    * It checks the `mastery_level` for each.
+
+3.  **Decision Logic:**
+    * **Case A (Prerequisites Met):** If the mastery level for key items like `两` and `十五` is above a certain threshold (e.g., `> 0`), the user can begin Stage 1 of the restaurant module immediately.
+    * **Case B (Prerequisites Not Met):** If the mastery level for `两` (liǎng) and `十五` (shíwǔ - fifteen) is 0, the app identifies a knowledge gap. It knows from its internal logic that these items are taught in the "Numbers" module.
+    * **Redirection:** The app presents a message: *"To order for two people, you'll need to know your numbers first! Let's start with a quick lesson on numbers 0-99."*
+    * The user is then seamlessly redirected to the relevant exercises within the "Numbers" module.
+
+4.  **Completing the Prerequisite:**
+    * The user completes the exercises for `两`, `十`, `五`, etc.
+    * The `learning_items` store is updated with their new mastery scores.
+    * Upon completing the prerequisite lesson, the app prompts: *"Great! Now you're ready to talk to the restaurant host. Let's go back."*
+
+5.  **Returning to the Module:** The user is returned to the "Chinese Restaurant" module. The prerequisite check is run again, which now passes, and the user can confidently begin the dialogue exercises.

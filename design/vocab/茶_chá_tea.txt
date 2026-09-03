@@ -1,0 +1,21 @@
+### Concept: char_茶_chá_tea
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `茶`.
+    * **Task:** Provide pinyin ("chá") and meaning ("tea").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "tea"
+    * **Task:** Type `茶`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "chá".
+    * **Task:** Handwrite `茶`.
+
+---

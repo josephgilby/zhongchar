@@ -1,0 +1,21 @@
+### Concept: char_七_qī_7
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `七`.
+    * **Task:** Provide pinyin ("qī") and meaning ("seven").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "seven"
+    * **Task:** Type `七`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "qī".
+    * **Task:** Handwrite `七`.
+
+---

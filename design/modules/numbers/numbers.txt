@@ -1,0 +1,127 @@
+### **Module 2: Numbers**
+
+**Focus:** Learn to recognize, say, and write Chinese numbers, from simple integers to large figures and special cases.
+**Prerequisites:** Module 1: Basic Greetings.
+
+---
+### **Part 1: Core Numbers (0-99)**
+
+**Goal:** Master the fundamental building blocks of the number system.
+
+**Characters to Learn (0-10):**
+- 零 (líng) - 0
+- 一 (yī) - 1
+- 二 (èr) - 2
+- 三 (sān) - 3
+- 四 (sì) - 4
+- 五 (wǔ) - 5
+- 六 (liù) - 6
+- 七 (qī) - 7
+- 八 (bā) - 8
+- 九 (jiǔ) - 9
+- 十 (shí) - 10
+
+**Grammar Patterns (11-99):**
+- **Teens:** `十 (shí) + Number` (e.g., 十五, shí wǔ)
+- **Tens:** `Number + 十 (shí)` (e.g., 二十, èr shí)
+- **Combined:** `[Tens] + [Number]` (e.g., 二十五, èr shí wǔ)
+
+---
+### **Part 2: Hundreds & Thousands**
+
+**Goal:** Learn to construct numbers up to 9,999.
+
+**Characters to Learn:**
+- 百 (bǎi) - hundred
+- 千 (qiān) - thousand
+- 两 (liǎng) - 2 (used for counting and for 200, 2,000, etc.)
+
+**Grammar Patterns:**
+- **Hundreds:** `Number + 百 (bǎi)` (e.g., 三百, sānbǎi = 300)
+- **Thousands:** `Number + 千 (qiān)` (e.g., 六千, liùqiān = 6,000)
+- **Handling Zero:** Introduce the rule of using `零 (líng)` for internal zeros.
+    - Example: 105 is "一百零五 (yībǎi líng wǔ)"
+    - Example: 2,025 is "两千零二十五 (liǎngqiān líng èrshíwǔ)"
+
+---
+### **Part 3: Large Numbers (The Ten Thousand System)**
+
+**Goal:** Master the Chinese system of counting large numbers, which groups by ten thousands (`万`) instead of thousands. This is a critical concept.
+
+**Characters to Learn:**
+- 万 (wàn) - ten thousand
+- 亿 (yì) - hundred million (a "wan" of "wans")
+
+**Grammar Patterns:**
+- **Ten Thousands:** `Number + 万 (wàn)`
+    - Example: 一万 (yīwàn) = 10,000
+    - Example: 十万 (shíwàn) = 100,000
+    - Example: 三十五万 (sānshíwǔ wàn) = 350,000
+- **Hundred Millions:** `Number + 亿 (yì)`
+    - Example: 一亿 (yīyì) = 100,000,000
+- **Combining:** Deconstruct complex numbers into the Chinese system.
+    - Example: 1,250,000 is "一百二十五万 (yībǎi èrshíwǔ wàn)" or "125 wan".
+    - Example: 1,000,000,000 is "十亿 (shí yì)" or "10 hundred-million".
+
+---
+### **Part 4: Special Cases**
+
+**Goal:** Learn decimals and negative numbers.
+
+**Characters to Learn:**
+- 点 (diǎn) - point (for decimals)
+- 负 (fù) - negative
+
+**Grammar Patterns:**
+- **Decimals:** Read numbers individually after the point.
+    - Example: 3.14 is "三点一四 (sān diǎn yī sì)"
+- **Negative Numbers:** Add `负 (fù)` at the beginning.
+    - Example: -10 is "负十 (fù shí)"
+    - Example: -2.5 is "负二点五 (fù èr diǎn wǔ)"
+
+---
+### **Part 5: Key Concepts & Nuances**
+
+**Goal:** Understand the contextual rules for using numbers correctly in real-world situations.
+
+* **Tone Sandhi for 一 (yī):** The tone of "one" changes based on the following word.
+    * Becomes **2nd tone (yí)** before a 4th tone syllable (e.g., 一个, yí ge).
+    * Becomes **4th tone (yì)** before a 1st, 2nd, or 3rd tone syllable (e.g., 一起, yì qǐ).
+    * Stays **1st tone (yī)** when spoken alone, as an ordinal, or at the end of a word.
+
+* **二 (èr) vs. 两 (liǎng):**
+    * Use **两 (liǎng)** when counting with a measure word (e.g., 两个人, liǎng ge rén) and for the digits in 200, 2000, etc. (e.g., 两百, liǎng bǎi).
+    * Use **二 (èr)** for ordinal numbers (e.g., 第二, dì èr - second), decimals, and as a component of larger numbers (e.g., 十二, shí'èr).
+
+* **零 (líng) vs. 〇 (líng) for Zero:**
+    * **零 (líng)** is the formal character used in official text and financial contexts.
+    * **〇 (líng)** is a common, informal circle used for years, room numbers, and phone numbers. It is visually distinct and easy to read in a sequence of digits.
+
+* **Character vs. Arabic Numeral Usage:**
+    * **Arabic numerals (0-9)** are used in most modern, everyday contexts (prices, dates, phone numbers).
+    * **Character numerals (一, 二, 三)** are essential for understanding the spoken language, are required in formal and legal documents, and are used in cultural contexts. Learning them is foundational to fluency.
+
+---
+### **Part 6: Reading Out Digits**
+
+**Goal:** Learn the conventions for reading long sequences of digits like years and phone numbers.
+
+**Characters to Learn:**
+- 〇 (líng) - 0 (informal, used for digits)
+
+**Grammar Patterns:**
+- **Reading Digits:** Read each number character individually.
+    - Example (Year): 2025 is "二〇二五 (èr líng èr wǔ)"
+- **Special Case "1":** In phone numbers, "1" is often read as "yāo" to avoid confusion with "qī" (7).
+    - Example (Phone Number): 139... is read "yāo sān jiǔ..."
+    
+---
+### **Mastery for the Numbers Module:**
+
+A user has "mastered" this module when they can consistently and correctly:
+1.  **Translate** any number from 0 up to the billions from digits to Chinese characters (and vice-versa).
+2.  **Listen** to a spoken number (e.g., "四万七千零三十 (sìwàn qīqiān líng sānshí)") and correctly write the digits (47,030).
+3.  Correctly handle **decimals** and **negative numbers**.
+4.  Know when to use **二 (èr)** versus **两 (liǎng)**.
+
+This comprehensive structure ensures the user has a deep, flexible understanding of the entire number system, making it a powerful prerequisite for any future modules.

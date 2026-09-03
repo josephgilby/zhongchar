@@ -1,0 +1,63 @@
+### Stage 1, Dialogue Tree 1: Standard "Hello, how many?"
+
+**Dialogue:**
+- Hostess: "你好，几位？(Nǐ hǎo, jǐ wèi?)" - Hello, how many people?
+- You: "两位，谢谢。(Liǎng wèi, xièxiè.)" - Two people, thank you.
+- Hostess: "好的，这边请。(Hǎo de, zhè biān qǐng.)" - Okay, this way please.
+
+---
+### Goal Exercises
+
+* **Exercise 1 (Required - Production):**
+    * **Exercise Type:** 4b (Dialogue Response)
+    * **Prompt:** "The host asks, '你好，几位？'. Politely respond for a party of two, adding a 'thank you'."
+    * **Task:** Type or handwrite `两位，谢谢`.
+    * **Prerequisites:**
+        - `vocab/你好_níhǎo_hello.txt`
+        - `vocab/几_jǐ_howmany.txt`
+        - `vocab/位_wèi_politepersonMW.txt`
+        - `vocab/谢谢_xièxie_thanks.txt`
+
+* **Exercise 2 (Procedural Generator):**
+    * **Generates Type:** 4b (Dialogue Response)
+    * **Number Range:** 1, 3-10
+    * **Prompt Template:** "The host asks, '你好，几位？'. How do you respond for a party of {number}?"
+    * **Answer Template:** "{chinese_number}位"
+    * **Prerequisites:**
+        - `vocab/你好_níhǎo_hello.txt`
+        - `vocab/几_jǐ_howmany.txt`
+        - `vocab/位_wèi_politepersonMW.txt`
+        - `modules/numbers/1_core_numbers_1_99.txt`
+
+* **Exercise 3 (Listening Comprehension):**
+    * **Exercise Type:** 4d (Aural Dialogue Response)
+    * **Prompt:**
+        * **Context:** "The hostess asks:"
+        * **Audio:** (Plays "你好，几位？")
+        * **Task:** "Respond to the hostess for a party of two."
+    * **Prerequisites:** (List of required concepts for the ideal answers)
+    * **Answer Evaluation Logic:**
+        1.  **Ideal Answer Check:** Does the user's answer match `两位` or `两位，谢谢`?
+            * **Action:** Mark correct. If `谢谢` is missing, trigger the "Politeness Follow-Up." Grant full mastery.
+
+        2.  **Alternate Natural Answer Check:** Does the answer match other natural phrases like `我们两位`?
+            * **Prerequisite Sub-Check:** Has the user already learned `我` and `们`?
+                * **If YES:** Treat as an Ideal Answer (same as Step 1).
+                * **If NO:** Re-prompt with feedback: *"Great try, but we haven't learned '我' and '们' yet. Let's stick to the words from this lesson for now. Try again with '两位'!"* (No penalty).
+
+        3.  **Awkward but Correct Check:** Does the answer match `两个人`?
+            * **Action:** Always trigger a re-prompt for politeness.
+            * **Feedback:** "Grammatically correct! However, in a restaurant, it's more common and polite to use the measure word '位' (wèi). Try responding with '两位'!"
+            * **Penalty:** None. The user is prompted to re-enter the ideal answer.
+
+        4.  **Grammatically Incorrect Check:** Does the answer match a known grammatical error like `二位`?
+            * **Action:** Mark incorrect and provide targeted feedback ("Remember to use 两 (liǎng) for counting...").
+
+---
+### **Follow-Up Prompts for Exercise 3**
+
+* **Follow-Up 1: Politeness**
+    * **Trigger:** User provides a correct answer that is missing `谢谢` (e.g., `两位`).
+    * **Follow-Up Prompt:** "Great! To be extra polite, how would you add 'thank you'?"
+    * **Task:** Type or handwrite `两位，谢谢`.
+    * **Action:** No penalty for skipping or getting it wrong.

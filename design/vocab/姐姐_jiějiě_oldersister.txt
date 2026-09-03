@@ -1,0 +1,22 @@
+### Concept: vocab_姐姐_jiějiě_oldersister
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `姐姐`.
+    * **Task:** Provide pinyin ("jiějiě") and meaning ("older sister").
+    * **Note:** Tests neutral tone on the second character.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "older sister"
+    * **Task:** Type `姐姐`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "jiějiě".
+    * **Task:** Handwrite `姐姐`.
+
+---

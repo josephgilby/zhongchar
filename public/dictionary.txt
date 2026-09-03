@@ -496,7 +496,7 @@
 {"character":"兟","definition":"to advance","pinyin":["shēn"],"decomposition":"⿰先先","etymology":{"type":"ideographic","hint":"Two people 先 marching; 先 also provides the pronunciation"},"radical":"儿","matches":[[0],[0],[0],[0],[0],[0],[1],[1],[1],[1],[1],[1]]}
 {"character":"兢","definition":"fearful, cautious, wary","pinyin":["jīng"],"decomposition":"⿰克克","radical":"儿","matches":[[0],[0],[0],[0],[0],[0],[0],[1],[1],[1],[1],[1],[1],[1]]}
 {"character":"入","definition":"to enter, to come in; to join","pinyin":["rù"],"decomposition":"？","etymology":{"type":"ideographic","hint":"An arrow indicating \"enter\""},"radical":"入","matches":[null,null]}
-{"character":"內","definition":"inside","pinyin":["nèi"],"decomposition":"⿻冂入","etymology":{"type":"ideographic","hint":"A man 入  entering a door 冂"},"radical":"入","matches":[[0],[0],[1],[1]]}
+door 冂{"character":"內","definition":"inside","pinyin":["nèi"],"decomposition":"⿻冂入","etymology":{"type":"ideographic","hint":"A man 入  entering a "},"radical":"入","matches":[[0],[0],[1],[1]]}
 {"character":"全","definition":"whole, entire, complete; to preserve","pinyin":["quán"],"decomposition":"⿱入玉","etymology":{"type":"ideographic","hint":"Jade 玉 put away 入 for safe-keeping"},"radical":"入","matches":[[0],[0],[1],[1],[1],[1]]}
 {"character":"兩","definition":"two, both, pair, couple; ounce","pinyin":["liǎng"],"decomposition":"⿱一⿻巾⿰入入","etymology":{"type":"ideographic","hint":"Two people 入 together in a cart"},"radical":"入","matches":[[0],[1,0],[1,0],[1,0],[1,1,0],[1,1,0],[1,1,1],[1,1,1]]}
 {"character":"八","definition":"eight; all around, all sides","pinyin":["bā"],"decomposition":"？","etymology":{"type":"ideographic","hint":"Two bent lines meaning \"to divide\""},"radical":"八","matches":[null,null]}

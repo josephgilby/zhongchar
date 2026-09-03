@@ -773,6 +773,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5971ac85611da7067dbfcabef3c70ebb5606018acd9e2a3903a0da507521e0d5"
 
 [[package]]
+name = "heck"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
+
+[[package]]
 name = "hermit-abi"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1090,24 +1096,57 @@ dependencies = [
 ]
 
 [[package]]
+name = "leptos-struct-table"
+version = "0.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4eb35803b56447f627ad24a3e524ee5fadce6d951ff735cc70e51e02a4c8078"
+dependencies = [
+ "leptos",
+ "leptos-struct-table-macro",
+ "leptos-use",
+ "send_wrapper",
+ "serde",
+ "thiserror 1.0.69",
+ "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
+name = "leptos-struct-table-macro"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c32e02c79e8bf8eb6f9b8bbeab8e92e9a1695359afb85119fe7252449789579d"
+dependencies = [
+ "darling",
+ "heck",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "leptos-tutorial"
 version = "0.1.0"
 dependencies = [
  "anyhow",
  "console_error_panic_hook",
  "csv",
+ "futures",
  "gloo-net 0.6.0",
  "gloo-timers",
  "indexed_db_futures",
  "js-sys",
  "leptos",
+ "leptos-struct-table",
  "leptos-use",
  "leptos_meta",
  "leptos_router",
  "reqwasm",
  "serde",
  "serde-wasm-bindgen",
+ "serde_json",
  "thiserror 2.0.12",
+ "wasm-bindgen",
  "web-sys",
 ]
 

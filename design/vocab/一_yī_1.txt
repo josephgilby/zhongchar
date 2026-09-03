@@ -1,0 +1,21 @@
+### Concept: char_一_yī_1
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `一`.
+    * **Task:** Provide pinyin ("yī") and meaning ("one").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "one"
+    * **Task:** Type `一`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "yī".
+    * **Task:** Handwrite `一`.
+
+---

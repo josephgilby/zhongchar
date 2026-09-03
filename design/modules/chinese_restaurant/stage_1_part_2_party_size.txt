@@ -1,0 +1,42 @@
+### Module 3: Chinese Restaurant, Stage 1, Part 2 (Stating Party Size)
+
+**Goal:** Learn how to state the number of people in your group using the correct measure word.
+**Prerequisite Module:** Numbers, Part 1 (Core Numbers 0-99).
+
+**Learning Concepts:**
+* **Characters:** 我, 有, 位, 几
+* **Vocabulary:** 两位 (as primary example), 几位 (as a question)
+* **Grammar Pattern:** `Number + 位` (e.g., 三位 - sān wèi - three people)
+
+---
+### **Exercises**
+
+#### **1. Foundational Concept Exercises**
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `我`. **Task:** Provide pinyin ("wǒ") and meaning ("I, me").
+    * **Prompt:** Show `有`. **Task:** Provide pinyin ("yǒu") and meaning ("to have").
+    * **Prompt:** Show `位`. **Task:** Provide pinyin ("wèi") and meaning ("measure word for people (polite)").
+    * **Prompt:** Show `几`. **Task:** Provide pinyin ("jǐ") and meaning ("how many; a few").
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "wǒ". **Task:** Handwrite `我`.
+    * **Prompt:** Play audio "yǒu". **Task:** Handwrite `有`.
+    * **Prompt:** Play audio "wèi". **Task:** Handwrite `位`.
+    * **Prompt:** Play audio "jǐ". **Task:** Handwrite `几`.
+
+---
+#### **2. Production & Synthesis Exercises**
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "Two people." **Task:** Type `两位`.
+    * **Prompt:** "Four people." **Task:** Type `四位`.
+    * **Prompt:** "How many people?" **Task:** Type `几位？`.
+
+* **Type 2a (Fill-in-the-Blank):**
+    * **Prompt:** "我们有 ___ 位。(Wǒmen yǒu ___ wèi.)" - We have three people.
+    * **Task:** Type `三`.
+
+* **Type 4b (Dialogue Response):**
+    * **Prompt:** "The host asks, '请问几位？'. Respond for a party of two."
+    * **Task:** Type or handwrite `两位`.

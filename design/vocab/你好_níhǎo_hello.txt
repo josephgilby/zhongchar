@@ -1,0 +1,21 @@
+### Concept: vocab_你好_níhǎo_hello
+
+**Prerequisites:**
+- `vocab/你_nǐ_you.txt`
+- `vocab/好_hǎo_good.txt`
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `你好`.
+    * **Task:** Provide pinyin ("ní hǎo") and meaning ("Hello").
+    * **Note:** Tests tone sandhi.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "Hello."
+    * **Task:** Type `你好`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "ní hǎo".
+    * **Task:** Handwrite `你好`.

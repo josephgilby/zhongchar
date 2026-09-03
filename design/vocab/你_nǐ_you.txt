@@ -1,0 +1,19 @@
+### Concept: char_你_nǐ_you
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `你`.
+    * **Task:** Provide pinyin ("nǐ") and meaning ("you").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "you"
+    * **Task:** Type `你`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "nǐ".
+    * **Task:** Handwrite `你`.

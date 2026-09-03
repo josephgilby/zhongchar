@@ -1,0 +1,19 @@
+### Concept: char_杯_bēi_cup
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `杯`.
+    * **Task:** Provide pinyin ("bēi") and meaning ("cup, (measure word for cups)").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "cup (measure word)"
+    * **Task:** Type `杯`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "bēi".
+    * **Task:** Handwrite `杯`.

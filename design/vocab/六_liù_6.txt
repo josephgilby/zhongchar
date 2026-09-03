@@ -1,0 +1,21 @@
+### Concept: char_六_liù_6
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `六`.
+    * **Task:** Provide pinyin ("liù") and meaning ("six").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "six"
+    * **Task:** Type `六`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "liù".
+    * **Task:** Handwrite `六`.
+
+---

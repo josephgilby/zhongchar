@@ -1,0 +1,12 @@
+- Translations from English to Chinese, avoiding as much as possible the reverse
+
+---
+### **App Architecture Note: Global Mastery System**
+
+The app will use a global, module-agnostic system for tracking user mastery. Learning progress will not be confined to the module in which it was gained.
+
+- **Central Database:** All learned items—characters, words (vocabulary), and grammar patterns—will be stored in a central database. Each item will have its own mastery score and Spaced Repetition System (SRS) data.
+- **Modules as Curriculums:** Individual learning modules (e.g., "The Restaurant," "The Airport") act as curated learning paths that draw from this central database.
+- **Shared Progress:** If a user masters a character or word in one module, that mastery is instantly recognized in all other modules that use the same item.
+- **Adaptive Learning:** The app will check the global mastery score for the components of any new phrase. If components are already known, introductory exercises can be skipped, allowing the user to focus only on the new information (e.g., new vocabulary or a new grammar pattern). This creates a more efficient and personalized learning journey.
+

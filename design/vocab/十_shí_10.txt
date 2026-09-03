@@ -1,0 +1,21 @@
+### Concept: char_十_shí_10
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `十`.
+    * **Task:** Provide pinyin ("shí") and meaning ("ten").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "ten"
+    * **Task:** Type `十`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "shí".
+    * **Task:** Handwrite `十`.
+
+---

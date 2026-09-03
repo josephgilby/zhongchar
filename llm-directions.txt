@@ -1,0 +1,95 @@
+This is a leptos 0.8 application. The following rules must be abided:
+
+1. create_effect does not exist, it is now Effect::new(move |_| {})
+2.  `LocalResource::new` takes a **single argument**: a closure that returns a future (e.g., `move || async move { ... }`). The resource becomes reactive by accessing signals (`.get()`) *inside* this closure. It will automatically re-run when those signals change. The old `create_local_resource` and the two-argument version of `LocalResource` are gone.
+
+// Correct Example:
+// A signal that will drive the resource.
+let (user_id, set_user_id) = signal(1);
+
+// An async function to fetch data.
+async fn fetch_user_name(id: u32) -> String {
+    // simulate a network request
+    format!("User {}", id)
+}
+
+let user_resource = LocalResource::new(move || {
+    // Access the signal's value inside the closure.
+    // The resource will re-run whenever `user_id` changes.
+    let current_id = user_id.get();
+    
+    // The closure returns a future.
+    async move {
+        fetch_user_name(current_id).await
+    }
+});
+3.  For conditional views, use the `either!` macro. A standard `if` or `match` statement will cause a type mismatch error if the branches return different view types (e.g., a `<p>` vs. a `<div>`). The `either!` macro solves this by unifying the return types. The syntax uses `=>` to separate a pattern from its corresponding view.
+
+// Simple Example (2 branches from a boolean)
+let (show_details, set_show_details) = signal(true);
+
+view! {
+    {move || either!(show_details.get(),
+        // pattern => view
+        true => view! { <p>"Showing details!"</p> },
+        false => view! { <span>"Click to learn more."</span> }
+    )}
+}
+
+// Nested Example (3+ branches from an enum)
+#[derive(Clone, Copy, PartialEq)]
+enum Status { Loading, Success, Error }
+let status = signal(Status::Success);
+
+view! {
+    {move || either!(status.get(),
+        // Branch 1: Loading
+        Status::Loading => view! { <p>"Loading..."</p> },
+        // Branch 2 & 3: Use a wildcard `_` to nest the next either!
+        _ => either!(status.get(),
+            Status::Success => view! { <div>"Data loaded successfully!"</div> },
+            Status::Error => view! { <p class="error">"Failed to load."</p> }
+        )
+    )}
+}
+
+4.  For conditional classes, prefer the tuple syntax `class=("class-name", signal)`. The `class:class-name=signal` syntax is not valid Rust syntax because of the hyphen. The tuple syntax works for all class names and is the most robust method.
+
+// Preferred Method:
+let (is_correct, set_is_correct) = signal(true);
+
+view! {
+    <input
+        class="input input-bordered"
+        // This works reliably, even with hyphens.
+        class=("input-success", move || is_correct.get())
+    />
+}
+
+// Avoid this method for classes with hyphens:
+view! {
+    // This will cause a compiler error because of the hyphen in `input-success`.
+    // <input class:input-success=move || is_correct.get() />
+}
+
+5.  To execute a `Callback`, use the `.run()` method. The older `.call()` method has been removed.
+
+// Correct Example:
+#[component]
+fn MyComponent(#[prop(into)] on_click: Callback<()>) -> impl IntoView {
+    view! {
+        // Correctly use .run(()) for a callback that takes no arguments.
+        <button on:click=move |_| on_click.run(())>"Click Me"</button>
+    }
+}
+
+fn test() -> impl IntoView {
+    let my_action = move |_| { println!("Button was clicked!"); };
+    view! {
+        <MyComponent on_click=my_action />
+    }
+}
+6.  The function `create_action` is deprecated. For async mutations (actions), use the struct-based API.
+    * Use **`Action::new()`** for mutations that produce a `Future` which is **`Send`** (like server functions / API calls).
+    * Use **`LocalAction::new()`** for mutations that produce a **`!Send`** (not Send) `Future`. This is required for all client-side-only async work that interacts with browser APIs like IndexedDB, WebRTC, or other `wasm_bindgen` calls that must stay on the main thread.
+

@@ -1,0 +1,82 @@
+### **Exercises for Module 2: Numbers, Part 2 (Hundreds & Thousands)**
+
+This document details the exercises for learning numbers from 100 to 9,999.
+
+---
+### **1. Foundations: Reading & Recognition (Type 1a)**
+
+* **Prompt:** Show character `百`.
+    * **Task:** Provide pinyin ("bǎi") and meaning ("hundred").
+
+* **Prompt:** Show character `千`.
+    * **Task:** Provide pinyin ("qiān") and meaning ("thousand").
+
+* **Prompt:** Show character `两`.
+    * **Task:** Provide pinyin ("liǎng") and meaning ("2, used for counting").
+
+* **Prompt:** Show word `一百`.
+    * **Task:** Provide spoken pinyin ("yìbǎi") and meaning ("100"). This tests the tone change rule for `一`.
+
+* **Prompt:** Show word `一千`.
+    * **Task:** Provide spoken pinyin ("yìqiān") and meaning ("1,000"). This tests the tone change rule for `一`.
+
+---
+### **2. Structure: Grammar & Contextual Recall (Type 2a)**
+
+* **Prompt:** "105 is written as 一百 ___ 五".
+    * **Task:** Type `零`.
+
+* **Prompt:** "The number 6,018 is written as 六千 ___ 十八".
+    * **Task:** Type `零`.
+
+* **Prompt:** "We have two hundred people: 我们有 ___ 百人。"
+    * **Task:** Type `两`.
+
+---
+### **3. Production & Synthesis (Types 3a & 3b)**
+
+#### **English-to-Chinese Translation (Typing)**
+
+* **Prompt:** "100".
+    * **Task:** Type `一百`.
+
+* **Prompt:** "300".
+    * **Task:** Type `三百`.
+
+* **Prompt:** "742".
+    * **Task:** Type `七百四十二`.
+
+* **Prompt:** "1,000".
+    * **Task:** Type `一千`.
+
+* **Prompt:** "2,000".
+    * **Task:** Type `两千`.
+
+* **Prompt:** "8,888".
+    * **Task:** Type `八千八百八十八`.
+
+* **Prompt:** "5,009".
+    * **Task:** Type `五千零九`.
+
+#### **Listening Dictation to Handwriting**
+
+* **Prompt:** Play audio "bǎi".
+    * **Task:** Handwrite `百`.
+
+* **Prompt:** Play audio "qiān".
+    * **Task:** Handwrite `千`.
+
+* **Prompt:** Play audio "yībǎi líng wǔ".
+    * **Task:** Handwrite `一百零五`.
+
+---
+### **4. Mastery Challenge: Listening Comprehension (Type 4a)**
+
+* **Prompt:** Play audio "七百四十二 (qībǎi sìshí'èr)".
+    * **Task:** Type the number using digits: `742`.
+
+* **Prompt:** Play audio "两千五百 (liǎngqiān wǔbǎi)".
+    * **Task:** Type the number using digits: `2500`.
+
+* **Prompt:** Play audio "九千零一 (jiǔqiān líng yī)".
+    * **Task:** Type the number using digits: `9001`.

@@ -1,0 +1,21 @@
+### Concept: char_要_yào_towant
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `要`.
+    * **Task:** Provide pinyin ("yào") and meaning ("to want, to need").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "to want"
+    * **Task:** Type `要`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "yào".
+    * **Task:** Handwrite `要`.
+
+---

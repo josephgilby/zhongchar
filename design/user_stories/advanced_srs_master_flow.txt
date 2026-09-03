@@ -1,0 +1,114 @@
+### User Story: Advanced SRS Master Flow
+
+This document outlines the complete, enhanced SRS model. It features an adaptive onboarding system for users with prior knowledge and uses user-reported confidence after both correct and incorrect answers to create a fair, intelligent, and highly personalized review schedule based on time-gated memory stages.
+
+---
+### **Primary User Story**
+
+**As a** learner,
+**I want** the app to respect my existing knowledge and also understand my confidence level on new and reviewed material,
+**So that** my study sessions are always challenging and efficient, whether I'm a complete beginner or an experienced student.
+
+---
+### **1. The Memory Stage & Promotion Model**
+
+* **Stage 0: Unseen**
+* **Stage 1: Learning** (intra-session review)
+* **Stage 2: Day Memory** (earliest promotion in **1 day**)
+* **Stage 3: Week Memory** (earliest promotion in **~7 days**)
+* **Stage 4: Long-Term Memory** (earliest promotion in **~30 days**)
+* **Stage 5: Mastered** (due in 3+ months)
+
+#### **How `earliest_promotion_date` Works**
+The `earliest_promotion_date` is the first day that a correct, confident answer will **promote** the item to the next stage. Answering correctly *before* this date is still valuable practice but will not advance the item's long-term schedule.
+
+---
+### **2. The First Encounter: Adaptive Onboarding**
+
+Applies **only** the first time a user correctly answers an exercise for a **Stage 0: Unseen** item.
+
+* **"New To Me":** Item is promoted to **Stage 1: Learning** and re-queued for later in the session.
+* **"Getting Familiar":** Item is promoted directly to **Stage 2: Day Memory**. Its `earliest_promotion_date` is set for tomorrow.
+* **"Know It Well":** Item is promoted directly to **Stage 3: Week Memory**. Its `earliest_promotion_date` is set for ~7 days from now.
+
+---
+### **3. Subsequent Encounters (Reviews & Reinforcement)**
+
+For any item at Stage 1 or higher.
+
+#### **Handling Correct Answers:**
+* **"Easy":** If `current_date >= earliest_promotion_date`, promotes the item to the next SRS stage and sets a new `earliest_promotion_date`. The item achieves "Daily Mastery."
+* **"Hard":** Flags the item for **intra-day review**, preserves its SRS stage and `earliest_promotion_date`, and re-queues it.
+
+#### **Handling Incorrect Answers:**
+1.  Check for **Typos** and **Common Errors**.
+2.  Prompt user for post-mistake confidence:
+    * **"Oh, right!":** Flags for **intra-day review**, preserving SRS stage and `earliest_promotion_date`.
+    * **"No Idea":** **Demotes** to **Stage 1: Learning**, clearing the promotion date.
+
+---
+### **4. The Intra-Day Review & End-of-Session Logic**
+
+* **Successful Review:** Getting a flagged item correct with **"Easy"** confidence clears the flag and grants "Daily Mastery."
+* **Handling Repeated Hesitation:**
+    * **WHEN** a user flags an item for intra-day review a *second time* in the same session (e.g., by clicking "Hard" twice, or getting it wrong and clicking "Oh, right!" twice).
+    * **THEN** this signals a significant memory gap. The item is treated as a **"No Idea"** response and is **demoted all the way to Stage 1: Learning**.
+* **End-of-Session Penalty:** Any item still flagged for review when a session ends is **demoted by one stage** and its `earliest_promotion_date` is reset.
+
+---
+### **5. Comprehensive User Story Scenarios**
+
+These scenarios cover all major pathways in the learning algorithm.
+
+#### **Onboarding Scenarios (First Encounter)**
+
+* **Scenario 1: True Beginner**
+    * Alex sees `们` for the first time. He gets it right and clicks **"New To Me"**. It's re-queued. Later, he gets it right again and clicks "Easy."
+    * **Result:** `们` is promoted to Stage 2, `earliest_promotion_date` is set for tomorrow, and it achieves Daily Mastery.
+
+* **Scenario 2: Already Known**
+    * Alex sees `你` for the first time, knows it well, gets it right, and clicks **"Know It Well"**.
+    * **Result:** `你` is promoted to Stage 3, `earliest_promotion_date` is set for ~Sept 14th, and it is done for the day.
+
+#### **Review Scenarios**
+
+* **Scenario 3: Confident Correct Review**
+    * Alex's review for `我` (Stage 2) appears on its promotion date. He gets it right and clicks **"Easy"**.
+    * **Result:** `我` is promoted to Stage 3 and its promotion date is reset for ~7 days later.
+
+* **Scenario 4: Hesitant Correct Review (Successful Reinforcement)**
+    * Alex's review for `有` (Stage 2) appears. He gets it right but clicks **"Hard"**.
+    * **Result:** `有` remains Stage 2, is flagged, and re-queued. Later, he gets it right again and clicks **"Easy"**. The flag is cleared, and `有` is done for the day, still at Stage 2 with its original promotion date intact.
+
+* **Scenario 5: Correcting a Typo**
+    * Alex gets a review for `欢迎光临` (Stage 4) and makes a typo. The app prompts him, he overrides, and then clicks **"Easy"**.
+    * **Result:** `欢迎光临` is promoted to Stage 5.
+
+* **Scenario 6: "Oh, Right!" Moment (Successful Reinforcement)**
+    * Alex's review for `两` (Stage 3) comes up. He incorrectly writes `二`. The app shows the specific tip. Alex taps **"Oh, right!"**.
+    * **Result:** `两`'s stage remains 3. It is flagged and re-queued. Later, he answers correctly and clicks **"Easy"**. The flag is cleared, and `两` is done for the day, stage preserved.
+
+* **Scenario 7: "Oh, Right!" Moment (Missed Reinforcement)**
+    * Alex gets `请问` (Stage 3) wrong and taps **"Oh, right!"**. It is flagged and re-queued. He then finishes his session.
+    * **Result:** The end-of-session logic demotes `请问` to Stage 2 and sets its promotion date for tomorrow.
+
+* **Scenario 8: "No Idea" Moment**
+    * A review for `预订` (Stage 4) appears. Alex has completely forgotten it and taps **"No Idea"**.
+    * **Result:** `预订` is immediately demoted to Stage 1 (Learning) and is re-queued to be learned from scratch.
+
+* **Scenario 9: Repeated Hesitation (Demotion to Learning)**
+    * Alex sees `位` (Stage 2), gets it right, but clicks **"Hard"**. It's re-queued.
+    * Later, it appears again. He gets it right, but still feels unsure and clicks **"Hard"** a second time.
+    * **Result:** Because this is the second consecutive hesitation, the system treats it as a major memory lapse. `位` is demoted all the way to **Stage 1 (Learning)** and is re-queued again to be re-learned.
+
+#### **Multi-Day Scenarios (Testing `earliest_promotion_date`)**
+
+* **Scenario 10: On-Time Promotion**
+    * **On Sunday (Sept 7th):** Alex learns `我们` and it is promoted to Stage 2. Its `earliest_promotion_date` is set for Sept 8th.
+    * **On Monday (Sept 8th):** The review for `我们` appears. Alex gets it right and clicks **"Easy"**.
+    * **Result:** The condition is met. `我们` is promoted to Stage 3, and its new promotion date is set for ~Sept 15th.
+
+* **Scenario 11: Early Review (No Promotion)**
+    * **On Sunday (Sept 7th):** Alex learns `谢谢` and it is promoted to Stage 3 (Week Memory). Its `earliest_promotion_date` is set for Sept 14th.
+    * **On Wednesday (Sept 10th):** Alex does an extra study session. The review for `谢谢` appears. He gets it right and clicks **"Easy"**.
+    * **Result:** Because it is before the promotion date, the item's stage **is not promoted**. `谢谢` remains at Stage 3, and its `earliest_promotion_date` is still Sept 14th.

@@ -1,0 +1,21 @@
+### Concept: char_书_shū_book
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `书`.
+    * **Task:** Provide pinyin ("shū") and meaning ("book").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "book"
+    * **Task:** Type `书`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "shū".
+    * **Task:** Handwrite `书`.
+
+---

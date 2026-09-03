@@ -1,0 +1,21 @@
+### Concept: char_四_sì_4
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `四`.
+    * **Task:** Provide pinyin ("sì") and meaning ("four").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "four"
+    * **Task:** Type `四`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "sì".
+    * **Task:** Handwrite `四`.
+
+---

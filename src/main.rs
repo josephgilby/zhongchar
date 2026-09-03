@@ -1,4 +1,7 @@
+mod components;
+mod logic;
 mod model;
+mod pages;
 
 mod app;
 mod helpers;

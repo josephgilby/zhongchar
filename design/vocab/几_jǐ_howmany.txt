@@ -1,0 +1,22 @@
+
+### Concept: char_几_jǐ_howmany
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `几`.
+    * **Task:** Provide pinyin ("jǐ") and meaning ("how many").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "how many"
+    * **Task:** Type `几`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "jǐ".
+    * **Task:** Handwrite `几`.
+
+---

@@ -1,0 +1,22 @@
+### Concept: vocab_学生_xuéshēng_student
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `学生`.
+    * **Task:** Provide pinyin ("xuéshēng") and meaning ("student").
+    * **Note:** Tests neutral tone on the second character.
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "student"
+    * **Task:** Type `学生`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "xuéshēng".
+    * **Task:** Handwrite `学生`.
+
+---

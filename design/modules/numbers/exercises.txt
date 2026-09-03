@@ -1,0 +1,106 @@
+### **Exercises for Module 2: Numbers**
+
+This document outlines the exercises for the Numbers module, categorized by the parts in the module definition.
+
+### **Exercises for Module 2: Numbers, Part 1**
+
+This document details the "Type 1a" (Foundations: Reading & Recognition) exercises for the core numbers 0-10.
+---
+* **Prompt:** Show character `零`.
+    * **Task:** Provide pinyin ("líng") and meaning ("0").
+
+* **Prompt:** Show character `〇`.
+    * **Task:** Provide pinyin ("líng") and meaning ("0, informal/digit").
+
+* **Prompt:** Show character `一`.
+    * **Task:** Provide pinyin ("yī") and meaning ("1").
+
+* **Prompt:** Show character `二`.
+    * **Task:** Provide pinyin ("èr") and meaning ("2").
+
+* **Prompt:** Show character `两`.
+    * **Task:** Provide pinyin ("liǎng") and meaning ("2, used for counting").
+
+* **Prompt:** Show character `三`.
+    * **Task:** Provide pinyin ("sān") and meaning ("3").
+
+* **Prompt:** Show character `四`.
+    * **Task:** Provide pinyin ("sì") and meaning ("4").
+
+* **Prompt:** Show character `五`.
+    * **Task:** Provide pinyin ("wǔ") and meaning ("5").
+
+* **Prompt:** Show character `六`.
+    * **Task:** Provide pinyin ("liù") and meaning ("6").
+
+* **Prompt:** Show character `七`.
+    * **Task:** Provide pinyin ("qī") and meaning ("7").
+
+* **Prompt:** Show character `八`.
+    * **Task:** Provide pinyin ("bā") and meaning ("8").
+
+* **Prompt:** Show character `九`.
+    * **Task:** Provide pinyin ("jiǔ") and meaning ("9").
+
+* **Prompt:** Show character `十`.
+    * **Task:** Provide pinyin ("shí") and meaning ("10").
+
+---
+### **Part 2: Hundreds & Thousands**
+
+* **Type 1a (Character & Word Recognition):**
+    * **Prompt:** Show character `百`. **Task:** Provide pinyin ("bǎi") and meaning ("hundred").
+    * **Prompt:** Show character `千`. **Task:** Provide pinyin ("qiān") and meaning ("thousand").
+
+* **Type 2a (Fill-in-the-Blank):**
+    * **Prompt:** "105 is written as 一百 ___ 五". **Task:** Type `零`.
+    * **Prompt:** "The number 6,018 is written as 六千 ___ 十八". **Task:** Type `零`.
+
+* **Type 3a (English-to-Chinese Translation):**
+    * **Prompt:** "742". **Task:** Type `七百四十二`.
+    * **Prompt:** "2,500". **Task:** Type `两千五百`.
+
+---
+### **Part 3: Large Numbers (The Ten Thousand System)**
+
+* **Type 1a (Character & Word Recognition):**
+    * **Prompt:** Show character `万`. **Task:** Provide pinyin ("wàn") and meaning ("ten thousand").
+    * **Prompt:** Show character `亿`. **Task:** Provide pinyin ("yì") and meaning ("hundred million").
+
+* **Type 3a (English-to-Chinese Translation):**
+    * **Prompt:** "10,000". **Task:** Type `一万`.
+    * **Prompt:** "350,000". **Task:** Type `三十五万`.
+    * **Prompt:** "1,250,000". **Task:** Type `一百二十五万`.
+
+* **Type 4a (Comprehension Question):**
+    * **Prompt:** Play audio "五万八千 (wǔwàn bāqiān)".
+    * **Task:** Ask question: "Which number is this?"
+        * A) 5,800
+        * B) 58,000
+        * C) 580,000
+
+---
+### **Part 4: Special Cases**
+
+* **Type 1a (Character & Word Recognition):**
+    * **Prompt:** Show character `点`. **Task:** Provide pinyin ("diǎn") and meaning ("point").
+    * **Prompt:** Show character `负`. **Task:** Provide pinyin ("fù") and meaning ("negative").
+
+* **Type 3a (English-to-Chinese Translation):**
+    * **Prompt:** "9.81". **Task:** Type `九点八一`.
+    * **Prompt:** "-15". **Task:** Type `负十五`.
+
+---
+### **Part 5: Key Concepts & Nuances**
+
+* **Type 2a (Fill-in-the-Blank):**
+    * **Prompt:** Show context: "我有 ___ 个苹果。(I have two apples.)".
+    * **Task:** Type the correct character for "two": `两`.
+
+* **Type 4b (Dialogue Response):**
+    * **Prompt:** A cashier says the total is "十二块 (shí'èr kuài)". The app asks: "How would you say 'second floor'?"
+    * **Task:** Type `二楼`. (This tests that the user knows `èr` is for ordinals).
+
+* **Type 3a (English-to-Chinese Translation):**
+    * **Prompt:** "Year 2025".
+    * **Task:** Type `二〇二五`. (This tests the preferred informal character for years).

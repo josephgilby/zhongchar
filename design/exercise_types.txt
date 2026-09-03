@@ -1,0 +1,66 @@
+### **App Exercise Types**
+
+This document outlines the core exercise types for the language learning app. The structure is designed to build from foundational knowledge to active production, emphasizing true recall and comprehension.
+
+---
+### **1. Foundations: Reading & Recognition**
+
+**Goal:** Connect visual characters to sound, meaning, and basic vocabulary.
+
+* **1a. Character & Word Recognition:**
+    * **Prompt:** Show a single character (e.g., `你`) or a multi-character word (e.g., `你好`).
+    * **Task:** User must provide the pinyin (e.g., "nǐ", "nǐ hǎo") and the English meaning (e.g., "you", "Hello").
+    * **Tone Sandhi:** This exercise is crucial for teaching tone changes. For example, when the user is shown `你好`, the app will expect the pinyin "ní hǎo," teaching them that two third tones in a row become a second tone followed by a third tone.
+    * **Adaptive Hint:** On failure with a single character, show the component breakdown (e.g., "Hint for 好: 女 + 子").
+
+---
+### **2. Structure: Grammar & Contextual Recall**
+
+**Goal:** Reinforce grammar patterns and practice word recall in context.
+
+* **2a. Fill-in-the-Blank (Typing):**
+    * **Prompt:** Show a Chinese sentence with a key word missing and the English translation. (e.g., "我们今晚 ______。(We are fully booked tonight.)").
+    * **Task:** User must type the missing word (`订满了`).
+
+---
+### **3. Production & Synthesis**
+
+**Goal:** Have the user produce full Chinese phrases and characters from memory.
+
+* **3a. English-to-Chinese Translation (Typing):**
+    * **Prompt:** Show an English sentence (e.g., "We are fully booked tonight.").
+    * **Task:** User must type the complete and correct Chinese phrase (`我们今晚订满了`).
+
+* **3b. Listening Dictation to Handwriting:**
+    * **Prompt:** Play audio of a word or short phrase (e.g., "再见").
+    * **Task:** User must handwrite the characters they heard (`再见`). This is the primary method for testing listening and handwriting recall.
+    * **Scaffolding on Failure:**
+        1.  **Reveal Character:** If the user is stuck on the audio, a button reveals the character visually. This bypasses the listening test but still allows the handwriting skill to be tested. Mastery scores are adjusted accordingly.
+        2.  **Component Hint:** Show component breakdown (`女 + 子`).
+        3.  **Guided Tracing:** Provide animated stroke-order tracing.
+
+---
+### **4. Mastery Challenge: Listening Comprehension**
+
+**Goal:** Confirm a high level of understanding of full spoken phrases.
+
+* **4a. Comprehension Question:**
+    * **Prompt:** Play audio of a full phrase from a dialogue (e.g., Hostess says: "您贵姓？").
+    * **Task:** Ask a direct question in English. "What is the hostess asking for?" (Answer: "My last name").
+
+* **4b. Dialogue Response:**
+    * **Prompt:** Frame it as a conversation. "The hostess asks, '您贵姓？'. How do you respond?"
+    * **Task:** User must type or handwrite the correct response from the dialogue tree (e.g.,`我姓 [Smith]`).
+
+* **4c. Advanced Listening Dictation (Rare Challenge):**
+    * **Prompt:** Play audio of a full sentence (e.g., "我们今晚订满了").
+    * **Task:** User must handwrite the entire phrase. This is a high-difficulty exercise with a large mastery reward, used sparingly.
+
+* **NEW - 4d. Aural Dialogue Response (Audio Prompt):**
+    * **Goal:** Test listening comprehension and production in a conversational context.
+    * **Prompt:**
+        1.  Show context text: "The hostess asks:"
+        2.  Play audio of the hostess's line (e.g., "你好，几位？").
+        3.  Show a task: "How do you respond for a party of two?"
+    * **Task:** User must type or handwrite a correct response.
+    * **Handling Multiple Responses:** The exercise definition will include a list of acceptable answers. For example, if the audio is "几位？", the accepted answers could be `两位`, `我们两位`, or `两个人`.

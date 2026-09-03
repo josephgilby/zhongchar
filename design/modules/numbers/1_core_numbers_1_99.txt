@@ -1,0 +1,74 @@
+### **Exercises for Module 2: Numbers, Part 1 (Core Numbers 0-99)**
+
+This document details the exercises for learning the fundamental numbers and their patterns.
+
+**Prerequisites:**
+- `vocab/零_líng_0.txt`
+- `vocab/〇_líng_0_informal.txt`
+- `vocab/一_yī_1.txt`
+- `vocab/二_èr_2.txt`
+- `vocab/两_liǎng_2_counting.txt`
+- `vocab/三_sān_3.txt`
+- `vocab/四_sì_4.txt`
+- `vocab/五_wǔ_5.txt`
+- `vocab/六_liù_6.txt`
+- `vocab/七_qī_7.txt`
+- `vocab/八_bā_8.txt`
+- `vocab/九_jiǔ_9.txt`
+- `vocab/十_shí_10.txt`
+
+---
+### **1. Foundations: Reading & Recognition (Type 1a)**
+
+None, all from prerequisites
+
+---
+### **1b. Aural to Numeral Recognition (Type 1b)**
+
+#### **Listening to Numeral Recognition**
+
+* **Prompt:** Play audio "shí qī".
+    * **Task:** Type `17`.
+
+* **Prompt:** Play audio "sān shí wǔ".
+    * **Task:** Type `35`.
+
+* **Prompt:** Play audio "wǔ shí".
+    * **Task:** Type `50`.
+
+* **Prompt:** Play audio "bā shí liù".
+    * **Task:** Type `86`.
+
+* **Prompt:** Play audio "jiǔ shí jiǔ".
+    * **Task:** Type `99`.
+
+---
+### **2. Production & Synthesis (Types 3a & 3b)**
+
+#### **English-to-Chinese Translation (Typing)**
+
+* **Prompt:** "11".
+    * **Task:** Type `十一`.
+
+* **Prompt:** "17".
+    * **Task:** Type `十七`.
+
+* **Prompt:** "20".
+    * **Task:** Type `二十`.
+
+* **Prompt:** "30".
+    * **Task:** Type `三十`.
+
+* **Prompt:** "45".
+    * **Task:** Type `四十五`.
+
+* **Prompt:** "99".
+    * **Task:** Type `九十九`.
+
+#### **Listening Dictation to Handwriting**
+
+* **Prompt:** Play audio "shí qī".
+    * **Task:** Handwrite `十七`.
+
+* **Prompt:** Play audio "sān shí wǔ".
+    * **Task:** Handwrite `三十五`.

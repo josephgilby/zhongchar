@@ -1,0 +1,21 @@
+### Concept: char_八_bā_8
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `八`.
+    * **Task:** Provide pinyin ("bā") and meaning ("eight").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "eight"
+    * **Task:** Type `八`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "bā".
+    * **Task:** Handwrite `八`.
+
+---

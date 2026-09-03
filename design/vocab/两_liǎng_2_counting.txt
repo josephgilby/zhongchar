@@ -1,0 +1,21 @@
+### Concept: char_两_liǎng_2_counting
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `两`.
+    * **Task:** Provide pinyin ("liǎng") and meaning ("two (used when counting with measure words)").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "two (for counting)"
+    * **Task:** Type `两`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "liǎng".
+    * **Task:** Handwrite `两`.
+
+---

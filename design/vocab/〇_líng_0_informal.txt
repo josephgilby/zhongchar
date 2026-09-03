@@ -1,0 +1,21 @@
+### Concept: char_〇_líng_0_informal
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `〇`.
+    * **Task:** Provide pinyin ("líng") and meaning ("zero (informal, for numbers)").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "zero (informal)"
+    * **Task:** Type `〇`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "líng".
+    * **Task:** Handwrite `〇`.
+
+---

@@ -1,0 +1,21 @@
+### Concept: char_这_zhè_this
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `这`.
+    * **Task:** Provide pinyin ("zhè") and meaning ("this").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "this"
+    * **Task:** Type `这`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "zhè".
+    * **Task:** Handwrite `这`.
+
+---

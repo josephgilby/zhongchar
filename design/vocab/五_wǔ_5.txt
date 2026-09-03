@@ -1,0 +1,21 @@
+### Concept: char_五_wǔ_5
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `五`.
+    * **Task:** Provide pinyin ("wǔ") and meaning ("five").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "five"
+    * **Task:** Type `五`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "wǔ".
+    * **Task:** Handwrite `五`.
+
+---

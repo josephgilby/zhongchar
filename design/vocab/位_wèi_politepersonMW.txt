@@ -1,0 +1,19 @@
+### Concept: char_位_wèi_politepersonMW
+
+**Prerequisites:**
+- `/grammar/measure_words.txt`
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `位` (in the context of 几**位**).
+    * **Task:** Provide pinyin ("wèi") and meaning ("(polite measure word for people)").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "(polite measure word for people)"
+    * **Task:** Type `位`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "wèi".
+    * **Task:** Handwrite `位`.

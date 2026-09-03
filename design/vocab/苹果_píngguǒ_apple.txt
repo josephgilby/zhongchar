@@ -1,0 +1,21 @@
+### Concept: vocab_苹果_píngguǒ_apple
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `苹果`.
+    * **Task:** Provide pinyin ("píngguǒ") and meaning ("apple").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "apple"
+    * **Task:** Type `苹果`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "píngguǒ".
+    * **Task:** Handwrite `苹果`.
+
+---

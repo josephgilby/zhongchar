@@ -1,0 +1,19 @@
+### Concept: char_零_líng_0
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `零`.
+    * **Task:** Provide pinyin ("líng") and meaning ("zero").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "zero"
+    * **Task:** Type `零`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "líng".
+    * **Task:** Handwrite `零`.

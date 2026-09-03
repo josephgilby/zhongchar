@@ -1,0 +1,21 @@
+### Concept: char_九_jiǔ_9
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `九`.
+    * **Task:** Provide pinyin ("jiǔ") and meaning ("nine").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "nine"
+    * **Task:** Type `九`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "jiǔ".
+    * **Task:** Handwrite `九`.
+
+---

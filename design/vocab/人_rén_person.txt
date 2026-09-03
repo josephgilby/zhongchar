@@ -1,0 +1,21 @@
+### Concept: char_人_rén_person
+
+**Prerequisites:**
+- None
+
+---
+### Foundational Exercises
+
+* **Type 1a (Recognition):**
+    * **Prompt:** Show `人`.
+    * **Task:** Provide pinyin ("rén") and meaning ("person, people").
+
+* **Type 3a (Translation - Typing):**
+    * **Prompt:** "person"
+    * **Task:** Type `人`.
+
+* **Type 3b (Listening to Handwriting):**
+    * **Prompt:** Play audio "rén".
+    * **Task:** Handwrite `人`.
+
+---
